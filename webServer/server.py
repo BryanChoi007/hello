@@ -232,7 +232,7 @@ def recon_results():
 
 
 def send_template():
-    # Create the te mplate and send
+    # Create the template and send
     message = ipfix.message.MessageBuffer()
     message.begin_export(domain_id)
     message.add_template(template_4_4)
