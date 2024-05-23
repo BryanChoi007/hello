@@ -1,0 +1,437 @@
+Tenant,Device,Feature,vpn_if_name,vpn_if_description,vpn512_if_ipv4_address,vpn_if_dhcp_helper,vpn_if_ip_mtu,vpn_if_tcp_mss_adjust,vpn_if_mac_address,vpn_if_speed,vpn_if_duplex,vpn_if_shutdown,vpn_if_arp_timeout,vpn_if_autonegotiate,rewrite_shaping_rate,qos_map,vpn-qos_map,vpn_if_tracker,vpn_if_bandwidth_upstream,vpn_if_bandwidth_downstream,vpn_if_block_non_source_ip
+tenant1,Factory_Default_ISR_4331_V01,undefined,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,undefined,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,undefined,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,undefined,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet0/0/0,N/A,102.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,true,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet0/0/1,N/A,102.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet0,N/A,20.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,true,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet3,,10.1.19.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_ISR_4331_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet2,INET Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet4,Service or LAN Net Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet3,MGMT,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1,INT_MGMT,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet2/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,GigabitEthernet0/0/0,N/A,100.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,vpn-interface-svi,Vlan10,N/A,20.1.1.1/24,N/A,1500,N/A,N/A,N/A,N/A,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,GigabitEthernet0/0/1,N/A,101.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,ge0/0,INET Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,ge0/2,Service or LAN Net Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,ge0/1,MGMT,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,eth0,INT_MGMT,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_DC1_HUB,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_DC1_HUB,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_DC1_HUB,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_DC1_HUB,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_DC1_HUB,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,GigabitEthernet1,N/A,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,DCQOSMAP,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,GigabitEthernet3,Transport VPN,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,DCQOSMAP,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,,Employee VLAN Nic,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,,GUEST VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,,partner VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,GigabitEthernet2/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,GigabitEthernet1/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_GCP_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,GigabitEthernet2/,Internet_Interface_NAME,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,QOS,N/A,N/A,,,false
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,GigabitEthernet3,TLOCExtension_VPN0_R1,10.0.1.1/30,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,,partner VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,,Employee VLAN Nic,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,,GUEST VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet2,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,,,,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1/,N/A,N/A,N/A,1500,N/A,N/A,10000,_empty,false,1200,false,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet2,INET Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet4,Service or LAN Net Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet3,MGMT,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet1,INT_MGMT,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,,,,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,GigabitEthernet2/,N/A,N/A,N/A,1500,N/A,N/A,10000,_empty,false,1200,false,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,GigabitEthernet24/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet1,,10.1.15.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet2,,10.1.17.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet4,,10.0.20.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet7,,57.0.1.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet8,,10.0.100.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet9,,10.0.1.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet3,,10.1.19.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet5,,10.20.24.15/24,1.1.1.1,2.2.2.2,,,,,,,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet6,,56.0.1.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant1,Factory_Default_C8000V_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_ntp,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet2,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,,Transport G2 - ISP1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet1,Management - G1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_ospf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet3.156,Service Side LAN Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet3,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_ntp,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet2,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet3,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,,Transport G2 - ISP1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet1,Management - G1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_ospf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet3.56,Service Side LAN Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_ntp,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,GigabitEthernet2,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,,Transport G2 - ISP1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,,N/A,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,,TLOC Extension Tunnel Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,GigabitEthernet4,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,GigabitEthernet3,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,GigabitEthernet1,Management - G1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_ospf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,GigabitEthernet3.156,Service Side LAN Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,Loopback10,LB10 Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V4,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_ntp,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet2,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,,Transport G2 - ISP1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,,N/A,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,,TLOC Extension Tunnel Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet4,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet3,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet1,Management - G1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_ospf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet3.156,Service Side LAN Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant1,Tenant1_NSE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet0/0/0,N/A,102.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,true,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet0/0/1,N/A,102.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet0,N/A,20.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,true,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,GigabitEthernet3,,10.1.19.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_ISR_4331_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet2,INET Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet4,Service or LAN Net Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet3,MGMT,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1,INT_MGMT,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet2/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_AWS_TGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,GigabitEthernet0/0/0,N/A,100.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,vpn-interface-svi,Vlan10,N/A,20.1.1.1/24,N/A,1500,N/A,N/A,N/A,N/A,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,GigabitEthernet0/0/1,N/A,101.1.1.1/24,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C1111_8PLTELA_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,ge0/0,INET Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,ge0/2,Service or LAN Net Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,ge0/1,MGMT,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_vEdge_cloud_Template_V01,vpn-vedge-interface,eth0,INT_MGMT,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,vpn-vedge-interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,,,,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_STATIC_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,GigabitEthernet1,N/A,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,DCQOSMAP,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,GigabitEthernet3,Transport VPN,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,DCQOSMAP,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,,Employee VLAN Nic,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,,GUEST VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,,partner VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_DC1_HUB,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,GigabitEthernet2/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,GigabitEthernet1/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_AWS_TGW_CSR1000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_GCP_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_GCP_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,GigabitEthernet2/,Internet_Interface_NAME,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,QOS,N/A,N/A,,,false
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,GigabitEthernet3,TLOCExtension_VPN0_R1,10.0.1.1/30,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,,partner VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,,Employee VLAN Nic,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,,GUEST VLAN Nic,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Factory_Default_1_TLOC_Branch_Template,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet2,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_Azure_vWAN_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,,,,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_BOOTSTRAP_DHCP_8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,GigabitEthernet1/,N/A,N/A,N/A,1500,N/A,N/A,10000,_empty,false,1200,false,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_MEGAPORT_ICGW_C8000V_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet2,INET Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet4,Service or LAN Net Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet3,MGMT,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,GigabitEthernet1,INT_MGMT,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_SDBranch_ISRv_Template_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,GigabitEthernet2/,N/A,N/A,N/A,1500,N/A,N/A,10000,_empty,false,1200,false,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,GigabitEthernet24/,N/A,N/A,N/A,1500,N/A,N/A,_empty,_empty,false,1200,true,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Default_EQUINIX_DHCP_DNS_ICGW_CSR1000V_Template_V02,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet1,,10.1.15.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet2,,10.1.17.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet4,,10.0.20.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet7,,57.0.1.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet8,,10.0.100.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet9,,10.0.1.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet3,,10.1.19.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet5,,10.20.24.15/24,1.1.1.1,2.2.2.2,,,,,,,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,GigabitEthernet6,,56.0.1.15/24,,,,,,,false,,true,N/A,,N/A,,N/A,N/A,N/A
+tenant2,Factory_Default_C8000V_V01,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_ntp,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet2,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,,Transport G2 - ISP1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,,TLOC Extension Map Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,,TLOC Extension Tunnel Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet4,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet3,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet1,Management G1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_ospf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,GigabitEthernet3.173,Service Side LAN Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V2,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_ntp,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet2,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,,Transport G2 - ISP1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet1,Management G1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_ospf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet3,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,GigabitEthernet3.173,Service Side LAN Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V1,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_logging,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_ntp,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet2,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,,Transport G2 - ISP1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,,TLOC Extension Map Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,,TLOC Extension Tunnel Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet4,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet3,N/A,undefined,N/A,1504,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet1,Management G1,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_ospf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,GigabitEthernet3.173,Service Side LAN Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,Loopback10,LB10 Interface,,N/A,1500,N/A,N/A,_empty,_empty,false,1200,N/A,N/A,N/A,N/A,N/A,N/A,N/A,false
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+tenant2,Tenant2_DCE_MF_Template_V3,cisco_vpn_interface,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A

@@ -1,0 +1,31 @@
+<!doctype html>
+
+
+<head><title>Test</title> 
+    <meta charset=utf-8> </head>
+    <body>
+        <h1>Application Data</h1>
+        <form action="/my-link/" method="post">
+            <label for="AppCode">Application Code:</label>
+            <input type="text" id="AppCode" name="AppCode" placeholder="AppCode">
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <form action="/app-list/" method="post">
+            <label for="RDC">RDC:</label>
+            <input type="text" id="RDC" name="RDC" placeholder="RDC">
+            <button type="submit">Submit</button>
+        </form>
+            
+
+        <br>
+        <br>
+        <table>
+            {{ result  | safe }}
+        </table>
+
+       
+     
+        <!--<button> <a href="/my-link/" name="AppCode" value="App1973">App1973</a></button>-->
+
+    </body>

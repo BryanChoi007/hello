@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Gateway Demo</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+      <img src="/static/img/deloitte.png" class="logo" alt="">
+      <h3 class="hide">Deloitte Technologies</h3>
+    </div>
+
+    <div class="search">
+      <i class='bx bx-search'></i>
+      <input type="text" class="hide" placeholder="Quick Search ...">
+    </div>
+
+    <div class="sidebar-links">
+
+      <h4 class="hide">Pure Signal</h4>
+      
+      <ul>
+
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="/recon-results?title=BryanTest" data-active="0">
+            <div class="icon">
+              <i class='bx bx-map'></i>
+              <i class='bx bxs-map'></i>
+            </div>
+            <span class="link hide">BryanTest</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="/recon-results?title=BryanTest2" data-active="0">
+            <div class="icon">
+              <i class='bx bx-map'></i>
+              <i class='bx bxs-map'></i>
+            </div>
+            <span class="link hide">BryanTest2</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="/recon-results?title=BryanTest3" data-active="1">
+            <div class="icon">
+              <i class='bx bx-map'></i>
+              <i class='bx bxs-map'></i>
+            </div>
+            <span class="link hide">BryanTest3</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">Query - BryanTest</span>
+          <span>Query - BryanTest2</span>
+        </div>
+      </ul>
+
+      <h4 class="hide">F5 Loadbalancer</h4>
+
+      <ul>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="/pool-list/"  data-active="3">
+            <div class="icon">
+              <i class='bx bx-list-ul'></i>
+              <i class='bx bx-list-ol'></i>
+            </div>
+            <span class="link hide">Pool List</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#"  data-active="4">
+            <div class="icon">
+              <i class='bx bx-cog'></i>
+              <i class='bx bxs-cog'></i>
+            </div>
+            <span class="link hide">Manage Members</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">F5 - Pool List</span>
+          <span>F5 - Manage Members</span>
+        </div>
+      </ul>
+
+      <h4 class="hide">Network Infrastructure</h4>
+
+      <ul>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="/tenant-list/"  data-active="5">
+            <div class="icon">
+              <i class='bx bx-list-ul'></i>
+              <i class='bx bx-list-ul'></i>
+            </div>
+            <span class="link hide">Tenant List</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" data-active="6">
+            <div class="icon">
+              <i class='bx bx-list-ol'></i>
+              <i class='bx bx-list-ol'></i>
+            </div>
+            <span class="link hide">EPG List</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="#"  data-active="7">
+            <div class="icon">
+              <i class='bx bx-cog'></i>
+              <i class='bx bxs-cog'></i>
+            </div>
+            <span class="link hide">Add / Update Tenant</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">Network - Tenant List</span>
+          <span>Network - EPG List</span>
+          <span>Network - Add / Update Tenant</span>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main>
+    <h1>{{ title | safe }}</h1>
+    <h2>{{ jobID | safe }}</h2>
+
+
+      {{ result  | safe }}
+
+    <!--<p class="text">-->
+
+  </main>
+
+  <script src="/static/js/app.js"></script>
+</body>
+
+</html>
