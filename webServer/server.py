@@ -6,9 +6,9 @@ import urllib.parse
 import ipfix
 import socket
 import ipaddress
+import pandas as pd
 
-
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_file
 
 
 ######################################################################## IPFIX member Variables #########################################################################
@@ -455,6 +455,26 @@ def convert_json_to_ipfix(dataArray):
             send_data_to_flow_collector(record_message)
             count+=1
     return count
+
+
+
+
+######################################################### Download Testing ####################################################################
+# Get List of Tenants
+@app.route('/api/downloadTest', methods=["GET","POST"])
+def download_test():
+
+    # Create a dataframe and save as a CSV file
+    data = {'Name': ['John', 'Anna', 'Peter'], 
+            'Age': [28, 23, 39]}
+    df = pd.DataFrame(data)
+    df.to_csv('users.csv', index=False)
+
+    return send_file('users.csv', as_attachment=True)
+
+    #return appDataTable
+#return render_template("index.html")
+
 
 
 
