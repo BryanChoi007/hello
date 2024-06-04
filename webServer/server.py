@@ -54,7 +54,7 @@ url = "https://recon.cymru.com/api/jobs"
 payload = ""
 headers = {
     'Content-Type': "application/x-www-form-urlencoded",
-    'Authorization': "Token 6e0d63aa0c472fa95b3a5d4b3edcf0e9ffeb1725"
+    'Authorization': "Token 06aff1dc5192f0da53188527021255822079ce86"
     }
 
 ##############################################################################################################################################################################
@@ -170,6 +170,7 @@ def recon_results():
 
 
     response = requests.request("GET", url, data=payload, headers=headers)
+    #print("!!!!!!!!!!!!!!!!!!!!!!!!!!!" + response.content.decode("utf-8"))
     x = json.loads(response.content)
 
 
@@ -333,7 +334,7 @@ def convert_json_to_ipfix(dataArray):
 def recon_results_api():
     jobName = request.args.get("title")
 
-
+    # Make the call to Pure signal to get the jobID
     response = requests.request("GET", url, data=payload, headers=headers)
     x = json.loads(response.content)
 
@@ -456,7 +457,82 @@ def convert_json_to_ipfix(dataArray):
             count+=1
     return count
 
+#####################################################################################################################################################
 
+######################################################## Pure Signal API Run TEst with JSON Body #############################################################
+#AGet Recon Results for specifci Jobs
+@app.route('/api/recon-run/', methods=["GET","POST"])
+def recon_run_api():
+    #jobName = request.args.get("title")
+
+
+    inputs = request.get_json()
+
+    #inputs = json.loads(data)
+
+    token = inputs['token']
+    jobName = inputs['job_name']
+    startDate = inputs["start_date"]
+    endDate = inputs["end_date"]
+    ipAddress = inputs["ipaddress"] 
+
+
+    print("Token: " + token)
+    print("Job Name: " + jobName)
+    print("Start Date: " + startDate)  
+    print("End Date: " + endDate)
+    print("IPAddress: " + ipAddress)
+
+    payload = {
+        'job_name': jobName,
+        'job_description': 'API Gateway Run',
+        'start_date': startDate,
+        'end_date': endDate,
+        'priority': 25,
+        'queries' : [
+            {
+                'query_type':'flows',
+                'any_ip_addr':ipAddress,
+                #'any_port':10
+            }
+        ]
+    }
+
+    headers = {
+    'Content-Type': "application/json",
+    'Authorization': "Token " + token
+    }
+
+    response = requests.request("POST", url , data=json.dumps(payload), headers=headers)
+    #returnStr = "{\"Token\": \"" + token + "\",\"JobName\": \"" + jobName + "\"}"
+
+    jsonResponse = json.loads(response.content)
+
+    jobID = jsonResponse["job"]["id"]
+
+    print("!!!!!! JOB ID !!!!!!! " + str(jobID))
+
+    dataByte = response.content
+    dataString = dataByte.decode("utf-8")
+
+    return dataString
+
+    """
+    headers = {
+    'Content-Type': "application/x-www-form-urlencoded",
+    'Authorization': "Token " + token
+    }
+
+    # Make the call to Pure signal to get the jobID
+    response = requests.request("GET", url, data=payload, headers=headers)
+    x = json.loads(response.content)
+
+
+    return count
+    """
+
+
+#####################################################################################################################################################
 
 
 ######################################################### Download Testing ####################################################################
