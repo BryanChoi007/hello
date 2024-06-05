@@ -364,7 +364,7 @@ def recon_results_api():
         count = convert_json_to_ipfix(dataArray)
         s.close()
 
-        responseMessage = {"Number of Records Processed" : count}
+        responseMessage = {"Number of Records Processed and transmitted to Stealth Watch" : count}
         responseJSON = json.dumps(responseMessage)
         return responseJSON
 
@@ -388,7 +388,7 @@ def send_data_to_flow_collector(ipfix_data):
 
 
 def convert_json_to_ipfix(dataArray):
-    print("Transmitting IPFIX REcord ................")
+    print("Transmitting IPFIX Record ................")
 
     # Convert the each JSOn from the array into IPFIX record
     #queryResults = json.loads(response.content)
@@ -459,7 +459,7 @@ def convert_json_to_ipfix(dataArray):
 
 #####################################################################################################################################################
 
-######################################################## Pure Signal API Run TEst with JSON Body #############################################################
+######################################################## Pure Signal API Run Test with JSON Body #############################################################
 #AGet Recon Results for specifci Jobs
 @app.route('/api/recon-run/', methods=["GET","POST"])
 def recon_run_api():
@@ -474,7 +474,8 @@ def recon_run_api():
     jobName = inputs['job_name']
     startDate = inputs["start_date"]
     endDate = inputs["end_date"]
-    ipAddress = inputs["ipaddress"] 
+    ipAddress = inputs["ipaddress"]
+    outputType = inputs["output_type"]
 
 
     print("Token: " + token)
@@ -512,10 +513,95 @@ def recon_run_api():
 
     print("!!!!!! JOB ID !!!!!!! " + str(jobID))
 
+# we will poll the jobID until it is completed. Once completed we can run the get results query.
+
+
+    status = ""
+    payload = ""
+    while status != "Completed":
+        print("checking to see if jobID: " + str(jobID) + " has completed!!!!!!!!!!!!!!!!!!!!!!")
+        response = requests.request("GET", url, data=payload, headers=headers)
+        x = json.loads(response.content)
+
+
+        #Get the ID of the job to ompare with our jobID
+        jobs = x["data"]
+
+        for job in jobs:
+            id = job["id"]
+            if jobID == id:
+                status = job["status"]
+                if status == "Completed":
+                    jobName = job["name"]
+                    print("Job: " + jobName + " has completed!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+                    break
+        if status != "Completed":
+            time.sleep(60)
+
+
+
+# Get the results for the jobID that just completed.
+
+    response = requests.request("GET", url + "/" + str(jobID), data=payload, headers=headers)
     dataByte = response.content
     dataString = dataByte.decode("utf-8")
 
-    return dataString
+
+    if outputType == "StealthWatch":
+        print("Output Type is " + outputType + " calling recon_run_api() function!!!!!!!!!!!!!!!!!!")
+        headers = {
+        'Content-Type': "application/x-www-form-urlencoded",
+        }
+
+        apiGatewayURL = "http://127.0.0.1:5000/api/recon-results?title=" + jobName
+        response = requests.request("GET", apiGatewayURL, data=payload, headers=headers)
+        dataByte = response.content
+        responseMessage =  dataByte.decode("utf-8")
+        return responseMessage
+    
+    elif outputType == "csv":
+        dataArray = dataString.split("\n")
+        dataArray.pop()
+
+        csvOutput = "Start Time,Source IP,Source Country Code,Source Port,Destination IP,Destiantion Country Code,Destination Port\n"
+
+        #queryResults = json.loads(response.content)
+        for element in dataArray:
+            # Print each element
+            #print(element)
+        
+            x = json.loads(element)
+            
+            query_type = x["query_type"]
+
+            if query_type == "flows":
+
+                start_time = x["start_time"]
+                src_ip = x["src_ip_addr"]
+                src_cc = x["src_cc"]
+                dst_ip = x["dst_ip_addr"]
+                dst_cc = x["dst_cc"]
+                proto = x["proto"]
+                src_port = x["src_port"]
+                dst_port = x["dst_port"]
+                tcp_flags = x["tcp_flags"]
+                num_pkts = x["num_pkts"]
+                num_octets = x["num_octets"]
+                sample_algo = x["sample_algo"]
+                sample_interval = x["sample_interval"]
+        
+                csvOutput += start_time + "," + src_ip + "," + src_cc + "," + str(src_port) + "," + dst_ip + "," + dst_cc + "," + str(dst_port) + "\n"
+
+        print("Output Type is " + outputType + " returning the CSV Format!!!!!!!!!!!!!!!!!!")
+        return csvOutput
+
+    else:
+        print("Output Type is " + outputType + " returning the JSON!!!!!!!!!!!!!!!!!!")
+        return dataString
+
+
+
+    
 
     """
     headers = {
@@ -536,7 +622,7 @@ def recon_run_api():
 
 
 ######################################################### Download Testing ####################################################################
-# Get List of Tenants
+
 @app.route('/api/downloadTest', methods=["GET","POST"])
 def download_test():
 
@@ -553,16 +639,7 @@ def download_test():
 
 
 
-
 #######################################################################################################################################################################################################################################################
-
-
-
-
-
-
-
-
 
 
 
@@ -734,4 +811,5 @@ def pool_list():
 
 
 if __name__ == '__main__':
+    #app.run(host="",port="",debug=True, ssl_context="adhoc")
     app.run(debug=True)
