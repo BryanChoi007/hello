@@ -553,7 +553,7 @@ def recon_run_api():
         'Content-Type': "application/x-www-form-urlencoded",
         }
 
-        apiGatewayURL = "http://127.0.0.1:5000/api/recon-results?title=" + jobName
+        apiGatewayURL = "https://127.0.0.1:5001/api/recon-results?title=" + jobName
         response = requests.request("GET", apiGatewayURL, data=payload, headers=headers)
         dataByte = response.content
         responseMessage =  dataByte.decode("utf-8")
@@ -811,5 +811,5 @@ def pool_list():
 
 
 if __name__ == '__main__':
-    #app.run(host="",port="",debug=True, ssl_context="adhoc")
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=5001,debug=True, ssl_context="adhoc")
+    #app.run(debug=True)
