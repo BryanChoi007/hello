@@ -47,9 +47,9 @@ def send_template():
     message.begin_export(domain_id)
     message.add_template(template_4_4)
 
-    byte_message = message.to_bytes()
-    message.begin_export(domain_id)
-    message.from_bytes(byte_message)
+    #byte_message = message.to_bytes()
+    #message.begin_export(domain_id)
+    #message.from_bytes(byte_message)
     sent = s.sendto(message.to_bytes(), address)
     print("Sending Template Data: " + str(sent))
 
