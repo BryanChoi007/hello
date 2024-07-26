@@ -644,8 +644,31 @@ def download_test():
 
 
 
+#################################################################### AZURE Event HUB testing ##################################################################################
 
 
+@app.route('/api/AzureTest', methods=["GET","POST"])
+def azure_test():
+
+    print("Hi There")
+
+    #inputs = request.get_json()
+    inputs = request.json
+
+    if inputs == "":
+        print("Hi There. You are Testing the Azure Event HUbs")
+        return "Hi There. You are Testing the Azure Event HUbs without any JSON sent."       
+    else:
+        print(inputs)
+        return inputs
+    
+
+
+
+    #return appDataTable
+#return render_template("index.html")
+
+#####################################################################################################################################################################
 
 
 

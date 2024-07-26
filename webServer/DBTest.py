@@ -75,7 +75,7 @@ port = 3306
 
 # SQL query to create a table
 create_table_query = """
-CREATE TABLE IF NOT EXISTS Contract (
+CREATE TABLE IF NOT EXISTS Salary (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     salary VARCHAR(255) NOT NULL,
