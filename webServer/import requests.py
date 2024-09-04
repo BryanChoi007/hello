@@ -10,7 +10,7 @@ payload = {
     'start_date': '2024-05-31 16:04:46',
     'end_date': '2024-06-03 16:04:46', 
     'ipaddress':'216.10.243.64,172.86.96.87',
-    'output_type': 'csv'
+    'output_type': 'StealthWatch'
 }
 
 headers = {
