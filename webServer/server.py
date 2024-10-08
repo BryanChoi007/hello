@@ -832,6 +832,32 @@ def pool_list():
 #return render_template("index.html")
 
 
+################################################################## Asset Classification Functions #########################################################
+
+@app.route('/asset-class', methods=['GET','POST'])
+def asset_class():
+    try:
+        businessImpact = float(request.form['businessImpact'])
+        regCompliance = float(request.form['regCompliance'])
+        dependancy = float(request.form['dependancy'])
+        dataSensitivity = float(request.form['dataSensitivity'])
+        internetExposure = float(request.form['internetExposure'])
+        
+        riskScore = businessImpact + regCompliance + dependancy + dataSensitivity + internetExposure
+        
+        return f"Your Risk Score is : {riskScore}"
+    except ValueError:
+        return "Please enter valid numbers."
+
+
+
+
+
+
+###########################################################################################################################################################
+
+
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=5001,debug=True, ssl_context="adhoc")
