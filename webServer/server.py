@@ -87,6 +87,10 @@ def buttons():
 def cards():
     return render_template('cards.html')
 
+@app.route('/asset-class.html')
+def assetClass():
+    return render_template('asset-class.html')
+
 
 
 
