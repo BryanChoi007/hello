@@ -838,18 +838,77 @@ def pool_list():
 
 ################################################################## Asset Classification Functions #########################################################
 
-@app.route('/asset-class', methods=['GET','POST'])
+@app.route('/api/asset-class', methods=['GET','POST'])
 def asset_class():
     try:
-        businessImpact = float(request.form['businessImpact'])
-        regCompliance = float(request.form['regCompliance'])
-        dependancy = float(request.form['dependancy'])
-        dataSensitivity = float(request.form['dataSensitivity'])
-        internetExposure = float(request.form['internetExposure'])
+
+        businessImpact,regCompliance,dependancy,dataSensitivity,internetExposure = 0.0,0.0,0.0,0.0,0.0
+
+        risk_value_map = {
+                        "Low": 1.0,
+                        "Medium": 2.0,
+                        "High": 3.0
+                    }
+
+
+        #JSON Body Submission
+        if request.content_type == 'application/json':
+            inputs = request.get_json()
+
+            #if inputs is None or not inputs:
+            businessImpactStr = inputs['Business_Impact']
+            regComplianceStr = inputs['Regulatory_Compliance']
+            dependancyStr = inputs["Dependancy"]
+            dataSensitivityStr = inputs["Data_Sensitivity"]
+            internetExposureStr = inputs["Internet_Exposure"]
+
+            businessImpact = risk_value_map[businessImpactStr]
+            regCompliance = risk_value_map[regComplianceStr]
+            dependancy = risk_value_map[dependancyStr]
+            dataSensitivity = risk_value_map[dataSensitivityStr]
+            internetExposure = risk_value_map[internetExposureStr]
+            
+        # Standard HTML Form Submission
+        else:
+            businessImpact = float(request.form['businessImpact'])
+            regCompliance = float(request.form['regCompliance'])
+            dependancy = float(request.form['dependancy'])
+            dataSensitivity = float(request.form['dataSensitivity'])
+            internetExposure = float(request.form['internetExposure'])
         
-        riskScore = businessImpact + regCompliance + dependancy + dataSensitivity + internetExposure
+        riskScore = (businessImpact * 0.25) + (regCompliance * 0.20) + (dependancy * 0.20) + (dataSensitivity * 0.15) + (internetExposure * 0.20)
+
+        riskClass = "Low"
+
+        # Get the raw Risk Score
+        if riskScore >= 2.5:
+            riskClass = "Critical"
+            #return f"Critical: Risk Score {riskScore}"
+    
+        elif riskScore >= 2.0 and riskScore <= 2.49:
+            riskClass = "High"
+            #return f"High Risk: Risk Score {riskScore}"
+
+        elif riskScore >= 1.5 and riskScore <= 1.99:
+            riskClass = "Medium"
+            #return f"Medium Risk: Risk Score {riskScore}"
+
+        elif riskScore < 1.5:
+            riskClass = "Low"
+            #return f"Low Risk: Risk Score {riskScore}"         
+
+        # Add the conditional Rules to risk score
+        if riskScore < 1.5 and internetExposure == 3:
+            riskClass = "Medium"
+
+        if riskScore < 2 and (businessImpact == 3 or regCompliance == 3):
+            riskClass = "High"
+
+        if riskScore < 2.5 and ((dataSensitivity == 3 or regCompliance == 3) and internetExposure == 3):
+            riskClass = "Critical"
         
-        return f"Your Risk Score is : {riskScore}"
+        return f"Risk Classification:{riskClass} -- Risk Score: {riskScore}"
+    
     except ValueError:
         return "Please enter valid numbers."
 
